@@ -29,7 +29,9 @@ html {
 /* Header */
 
 .header-container {
-    background-color: white;
+    background: url(../images/wave-1.svg) bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 .header-container .inner {
@@ -45,8 +47,8 @@ html {
 
 .wave {
     position: absolute;
-    left: 0;
     bottom: 0;
+    left: 0;
     width: 100%;
     z-index: 1;
 }
@@ -58,14 +60,14 @@ html {
 .header-container .left {
     position: absolute;
     left: 0;
-    top: 20%;
+    top: 30%;
     z-index: 5;
 }
 
 .header-container .right {
     position: absolute;
     right: 0;
-    top: 20%;
+    top: 30%;
     z-index: 5;
 }
 
@@ -93,6 +95,7 @@ html {
 .staffs-container .title {
     text-align: center;
     color: var(--red);
+    padding: 0 50px;
 }
 
 .title h1 {
