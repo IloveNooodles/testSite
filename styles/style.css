@@ -90,6 +90,7 @@ html {
 
 /* Staffs */
 .staffs-container {
+    margin-top: -1px;
     background-color: var(--dark);
 }
 
