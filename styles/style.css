@@ -29,9 +29,7 @@ html {
 /* Header */
 
 .header-container {
-    background: url(../images/wave-1.svg) bottom center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-color: #fff;
 }
 
 .header-container .inner {
