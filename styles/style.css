@@ -29,7 +29,10 @@ html {
 /* Header */
 
 .header-container {
-    background-color: #fff;
+    background: url(../images/wave-1.svg) bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-bottom: -1;
 }
 
 .header-container .inner {
