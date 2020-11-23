@@ -115,18 +115,19 @@ html {
     width: 80%;
     max-width: 1200px;
     border-radius: 60px;
-    padding: 120px 0;
+    padding: 120px 100px;
     filter: drop-shadow(0px 40px 20px rgba(0, 0, 0, 0.5));
 }
 
 @media (max-width: 920px) { 
     .staffs-container .cards {
         flex-direction: column;
+        padding: 120px 0px;
     }
 }
 
 .staffs-container .card2 {
-    margin: 10px 0;
+    margin: 10px 30px;
     width: 210px;
     text-align: center;
 }
